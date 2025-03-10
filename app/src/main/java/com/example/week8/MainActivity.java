@@ -91,7 +91,6 @@ public class MainActivity extends AppCompatActivity {
 
                 case "*":
                     textResult.setText("Result: "+ df.format(num1*num2));
-                    System.out.println(df.format(num1/num2));
                     break;
             }
         }
